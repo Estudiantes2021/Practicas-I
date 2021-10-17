@@ -1,0 +1,27 @@
+body
+{text-align: left;  color: black teal; font-size: 18px; font-family: monospace;
+}
+
+h1
+{margin: 2cm; color:black; text-align: left; font-family: monospace; 
+}
+
+ul
+{margin: 2cm;  text-align: left;  color: black teal; font-family: monospace; font-size:18,5px
+; 
+}
+
+
+*
+{margin: 10px;
+    padding: 0px;}
+footer
+{background-image: url(banner2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    color:darkblue; 
+    text-align: center;
+    margin-top: 3cm;
+
+}
