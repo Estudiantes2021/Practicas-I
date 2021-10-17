@@ -1,0 +1,142 @@
+em,h1{
+    color:grey;
+}
+
+h1{
+    text-align: center; font-size: 57px; font-style: ;
+}
+
+h2{
+    text-align: center; font-size: 40px; font-style: italic;
+}
+
+h3 {
+    color:grey (216, 169, 137); font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: grey (224, 150, 100); font-size: 25px; font-style: italic; margin-top: 1cm; text-align: center;
+}
+h5{
+    color: grey; font-size: 21px; font-style: italic;
+}
+
+p{
+    color: grey; font-size: 20px;
+}
+
+body {
+    background-image: url(CSS/La-Canada.jpg);
+    background-repeat: no-repeat; background-attachment: fixed;
+}
+{header:s}
+
+.formulario {
+
+    text-align: center;
+    
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+    font-size: 20px;
+    width: 10%;
+    padding: 5px;
+    border: none;
+    size: 40;
+    margin: 8px 0;
+
+}
+
+label {
+    color: greyt;
+    font-size: 20px;
+}
+
+nav {
+    background-color: greyt;
+    margin-top: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    border-top: 1px;
+  }
+  
+  li a {
+    color: grey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 15px;
+    background-color: black;
+    text-decoration: none;
+  }
+
+
+.link {
+    color: lightseagreen
+}
+
+.contenedor {
+
+    width: 100%;
+    border: 3px solid;
+}
+
+.left {
+    border: 1 px solid;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    height: 33%;
+}
+
+.center {
+
+    text-align: center;
+    box-sizing: border-box;
+    float:left;
+    width: 33%;
+    height: 33%;
+
+}
+
+.right {
+    
+    text-align: center;
+    box-sizing: border-box;
+    float:left;
+    margin: auto;
+    width: 33%;
+    height: 33%;
+
+}
+
+.locales {
+    color: wheat;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+footer {
+
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+    background-image: url(CSS/FOOT.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 10vh;
+  }
